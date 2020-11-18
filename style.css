@@ -1,0 +1,69 @@
+html{
+  height: 100%;}
+
+body{ 
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 97%;
+  font-family: 'Quicksand', sans-serif;
+  }
+  
+.Container{ /* Contentiore Nero trasparente */
+  width: 65%;
+  height: 90%;
+  background-color: rgba(000, 000, 000, 0.5);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;}
+
+img{
+  max-width: 24%; /* Ridimensione Logo */
+  margin: auto;  /* Centratura Logo */
+  display: block;
+  padding-top: 80px;}
+
+header h1{ /* Centratura testo sotto il logo */
+  text-align: center;
+  color: chartreuse;
+  margin-bottom: 0;}
+
+nav{ /* Centratura del contenitore Nav */
+  width: 82%;
+  margin: auto; 
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgb(0, 255, 0);}
+
+nav input[type="button"]{ /* Centratura alta e bassa dei bottoni */
+  margin-top: 15px;
+  margin-bottom: 15px;}
+
+main{ /* Sistemazione del contenitore main */
+  width: 82%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;}
+
+div h2, div h4{ /* Sistemazioni margini alti e bassi dei testi */
+  margin-bottom:10px;
+  margin-top: 10px;}
+
+.percentage{ /* Dimenzioni e raggi dei contorni, uguali per tutte e tre le barre percentuali */
+  height: 35px;
+  border-radius: 6px;
+  margin-bottom: 40px;}
+
+.Low{ /* Lunghezza e colore della barra percentuale Bassa */
+  width: 15%;
+  background-color: rgb(255, 78, 78);}
+
+.Half{ /* Lunghezza e colore della barra percentuale Media */
+  width: 38%;
+  background-color: rgb(255, 194, 81);}
+
+.Max{ /* Lunghezza e colore della barra percentuale Massima */
+  width: 60%;
+  background-color: rgb(76, 255, 70);}
+
+
